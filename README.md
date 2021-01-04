@@ -19,6 +19,8 @@ Possible features include:
 
 -last read date/year
 
+-book genre tags
+
 -random book recommendation
 
 -notes
