@@ -5,7 +5,7 @@ The goal is to create an application to track physical books in your library usi
 
 Plan:
 
--start with .csv storage format (one for book, one for authors)
+-start with .csv storage format (populate book data from one query, populate author field from a second query)
 
 -populate from openlibrary api
 
