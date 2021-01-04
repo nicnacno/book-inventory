@@ -13,8 +13,11 @@ import csv
 #for openlibrary API query 
 import json
 import requests
+<<<<<<< HEAD
 import urllib.parse
 
+=======
+>>>>>>> test
 
 #test isbn:    0140328726  or  9780140328721
 # https://www.nylas.com/blog/use-python-requests-module-rest-apis/ 
@@ -26,9 +29,15 @@ url = "https://openlibrary.org/isbn/" + isbnID + ".json" #modifiable input for a
 book_response = requests.get(url) #query for isbn from openlibrary
 #for valid query test in implementation
 if book_response.status_code == 200:
+<<<<<<< HEAD
     print("query successful")
 else:
     print("invalid query, please try again")
+=======
+    print("Query successful.")
+else:
+    print("Invalid query, please try again.")
+>>>>>>> test
 
 
 data = book_response.json() #type is dict
